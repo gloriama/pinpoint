@@ -181,6 +181,10 @@ var findUserTags = function (userID) {
     },
     include: [ model.Tags ]
   }).then(function(tags) {
+      if (!tags[0].dataValues) {
+        console.log("User has no tags returned! Probably a new user just signed up.");
+        return [];
+      }
       return (tags[0].dataValues.Tags.map(function(tag){
         return tag.dataValues.name;
       }))
