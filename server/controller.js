@@ -54,8 +54,8 @@ var httpAdapter = 'https';
 
 var extra = {
     apiKey: //'AIzaSyDZJzu5MvHz0s6PsokNcMWy03bRpoGiJ74',  DEAD FOR PRESENTATION DAY
-    "AIzaSyCtsxXD-6Dl-dCzmvSDneXFvCknDYJ3GGA",
-    // 'AIzaSyAzos97uZL22RDdvapJ4UdIci4nk3sRwBA',
+    // "AIzaSyCtsxXD-6Dl-dCzmvSDneXFvCknDYJ3GGA",
+    'AIzaSyAzos97uZL22RDdvapJ4UdIci4nk3sRwBA',
     // 'AIzaSyAwFKCZYnUHaw2SmjsP8CDaZFgXsl4djuQ', DEAD FOR PRESENTATION DAY
     formatter: null
 };
